@@ -1,22 +1,57 @@
 <!DOCTYPE html>
-  <html>
-    <script ref="app.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Processor</title>
     <style>
-      body {
-        font-family: Verdana'
-      }
-      @font-face {
-        font-family: Abugida;
-        src: url("abugida.ttf");
-      }
-      ab {
-        font-family: Abugida;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            font-size: 16px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            min-height: 50px;
+            background: #f9f9f9;
+        }
     </style>
-    <body>
-      <div>
-        <p>Normal</p>
-        <p><ab>xabúgé'da</ab></p>
-      </div>
-    </body>
-  </html>
+</head>
+<body>
+
+    <h2>Multi-line Text Processor</h2>
+    <textarea id="inputText" placeholder="Enter text here..."></textarea>
+    <br>
+    <button onclick="processText()">Submit</button>
+    
+    <h3>Output:</h3>
+    <div id="output"></div>
+
+    <script>
+        function processText() {
+            // Get input text
+            let input = document.getElementById("inputText").value;
+
+            // Process text (Modify this function as needed)
+            let output = input.toUpperCase(); // Example: Convert text to uppercase
+
+            // Display output
+            document.getElementById("output").innerText = output;
+        }
+    </script>
+
+</body>
+</html>
