@@ -57,7 +57,7 @@
             let input = document.getElementById("inputText").value;
 
             // Process text (Modify this function as needed)
-            let output = abugida(input);
+            let output = abugida(input).replace(/\n/g,"<br>");
 
             // Display output
             document.getElementById("output").innerHTML = output;
