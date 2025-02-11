@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Processor</title>
     <style>
+        @font-face {
+            font-family: Abugida;
+            src: url("abugida.ttf");
+        }
+        ab {
+            font-family: Abugida;
+        }
         body {
             font-family: Arial, sans-serif;
             max-width: 600px;
@@ -41,12 +48,16 @@
     <div id="output"></div>
 
     <script>
+        function toAbugida(text) {
+            return `<ab>${text}<ab>`
+        }
+        
         function processText() {
             // Get input text
             let input = document.getElementById("inputText").value;
 
             // Process text (Modify this function as needed)
-            let output = input.toUpperCase(); // Example: Convert text to uppercase
+            let output = input.toAbugida();
 
             // Display output
             document.getElementById("output").innerText = output;
