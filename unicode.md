@@ -1,11 +1,42 @@
-|Character|Hex _(&#x----)_|
-|:-:|:-:|
-|á|00e1|
-|é|00e9|
-|ó|00f3|
-|ú|00fa|
-|þ|00fe|
-|ð|00f0|
-|ś|015b|
-|ź|017a|
-|ŋ|014b|
+<table>
+    <tr>
+        <th>Character</th>
+        <th>Hex <i>(&#x----)</i></th>
+    </tr>
+    <tr>
+        <td>&#x00e1</td>
+        <td>00e1</td>
+    </tr>
+    <tr>
+        <td>&#x00e9</td>
+        <td>00e9</td>
+    </tr>
+    <tr>
+        <td>&#x00f3</td>
+        <td>00f3</td>
+    </tr>
+    <tr>
+        <td>&#x00fa</td>
+        <td>00fa</td>
+    </tr>
+    <tr>
+        <td>&#x00fe</td>
+        <td>00fe</td>
+    </tr>
+    <tr>
+        <td>&#x00f0</td>
+        <td>00f0</td>
+    </tr>
+    <tr>
+        <td>&#x015b</td>
+        <td>015b</td>
+    </tr>
+    <tr>
+        <td>&#x017a</td>
+        <td>017a</td>
+    </tr>
+    <tr>
+        <td>&#x014b</td>
+        <td>014b</td>
+    </tr>
+</table>
