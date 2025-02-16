@@ -1,4 +1,12 @@
 <style>
+    @font-face {
+        font-family: Abugida;
+        src: url("abugida.ttf");
+    }
+    ab {
+        font-family: Abugida;
+        font-size: 0.5em;
+    }
     table {
         width: 100%;
         height: 100%;
@@ -7,6 +15,7 @@
         font-family: Verdana;
         font-weight: bold;
         border: black solid;
+        white-space: pre;
     }
     td, th {
         width: fit-content;
@@ -20,49 +29,49 @@
 
 <table>
     <tr>
-        <td>a</td>
-        <td>á</td>
-        <td>e</td>
-        <td>é</td>
-        <td>i</td>
-        <td>o</td>
-        <td>ó</td>
-        <td>u</td>
-        <td>ú</td>
-        <td>x</td>
+        <td>a <ab>xa</ab></td>
+        <td>á <ab>xá</ab></td>
+        <td>e <ab>xe</ab></td>
+        <td>é <ab>xé</ab></td>
+        <td>i <ab>xi</ab></td>
+        <td>o <ab>xo</ab></td>
+        <td>ó <ab>xó</ab></td>
+        <td>u <ab>xu</ab></td>
+        <td>ú <ab>xú</ab></td>
+        <td>x <ab>x</ab></td>
     </tr>
     <tr>
-        <td>h</td>
-        <td>w</td>
-        <td>y</td>
-        <td>p<br>b</td>
-        <td>c<br>j</td>
-        <td>t<br>d</td>
-        <td>þ<br>ð</td>
-        <td>f<br>v</td>
-        <td>k<br>g</td>
-        <td>backspace</td>
+        <td>h <ab>h</ab></td>
+        <td>w <ab>w</ab></td>
+        <td>y <ab>y</ab></td>
+        <td>p <ab>p</ab><br>b <ab>b</ab></td>
+        <td>c <ab>c</ab><br>j <ab>j</ab></td>
+        <td>t <ab>t</ab><br>d <ab>d</ab></td>
+        <td>þ <ab>þ</ab><br>ð <ab>ð</ab></td>
+        <td>f <ab>f</ab><br>v <ab>v</ab></td>
+        <td>k <ab>k</ab><br>g <ab>g</ab></td>
+        <td>&#x232B</td>
     </tr>
     <tr>
-        <td>s<br>z</td>
-        <td>ś<br>ź</td>
-        <td>l</td>
-        <td>m</td>
-        <td>n</td>
-        <td>ŋ</td>
-        <td>r</td>
-        <td colspan=3>enter</td>
+        <td>s <ab>s</ab><br>z <ab>z</ab></td>
+        <td>ś <ab>ś</ab><br>ź <ab>ź</ab></td>
+        <td>l <ab>l</ab></td>
+        <td>m <ab>m</ab></td>
+        <td>n <ab>n</ab></td>
+        <td>ŋ <ab>ŋ</ab></td>
+        <td>r <ab>r</ab></td>
+        <td colspan=3>&#x21B5</td>
     </tr>
     <tr>
-        <td>(</td>
-        <td>)</td>
-        <td>/</td>
-        <td>-</td>
-        <td>?</td>
-        <td>!</td>
-        <td>,</td>
-        <td>.</td>
-        <td>'</td>
-        <td>space</td>
+        <td>( <ab>(</ab></td>
+        <td>) <ab>)</ab></td>
+        <td>/ <ab>/</ab></td>
+        <td>- <ab>-</ab></td>
+        <td>? <ab>?</ab></td>
+        <td>! <ab>!</ab></td>
+        <td>, <ab>,</ab></td>
+        <td>. <ab>.</ab></td>
+        <td>' <ab>x'</ab></td>
+        <td>&#x2423 <ab> </ab></td>
     </tr>
 </table>
