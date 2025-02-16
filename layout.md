@@ -1,0 +1,11 @@
+{
+"title":"Abugida",
+"onScreen":{
+"main":[
+"aáeéioóuúx",
+"hwy[XK:pb][XK:cj][XK:td][XK:þð][XK:fv][XK:kg][DEL]",
+"[XK:sz][XK:śź]lmnŋr[ENTER][][]",
+"()/-?!,.'[SPACE]"
+]
+}
+}
