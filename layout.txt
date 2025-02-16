@@ -1,0 +1,14 @@
+name=MyConlang
+author=Devin
+keyHeight=10%
+keyWidth=10%
+rowHeight=10%
+
+row
+  a á e é i o ó u ú x 
+row
+  h w y p {b} c {j} t {d} þ {ð} f {v} k {g} {backspace}
+row
+  s {z} ś {ź} l m n ŋ r {enter}
+row
+  ( ) / - ? ! , . ' {space}
