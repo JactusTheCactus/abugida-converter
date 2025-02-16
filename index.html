@@ -21,7 +21,7 @@
         }
         textarea {
             width: 100%;
-            height: 150px;
+            height: 300px;
             font-size: 16px;
         }
         button {
@@ -41,11 +41,22 @@
 <body>
 
     <h2>Multi-line Text Processor</h2>
-    <textarea id="inputText" placeholder="Enter text input..."></textarea>
+    <textarea id="inputText" placeholder="Enter Latin Text Input...
+
+Allowed Characters:
+
+    Vowels:
+    <a> <á> <e> <é> <i> <o> <ó> <u> <ú>
+
+    Consonanats:
+    <x> <h> <w> <y> <p> <b> <c> <j> <t> <d> <þ> <ð> <f> <v> <k> <g> <s> <z> <ś> <ź> <l> <m> <n> <ŋ> <r>
+    
+    Symbols:
+    <(> <)> </> <-> <?> <!> <,> <.> <'> <[space]> <[enter]>"></textarea>
     <br>
     <button onclick="processText()">Submit</button>
     
-    <h3>Output:</h3>
+    <h3>Abugida Output:</h3>
     <div id="output"></div>
 
     <br><iframe src="keyboard.html" width=100% height=500></iframe>
